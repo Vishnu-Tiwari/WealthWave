@@ -1,0 +1,22 @@
+:root {
+    --primary-color: rgb(75, 94, 138); /* Deep Purple (#4B5E8A) */
+    --secondary-color: rgb(72, 187, 120); /* Vibrant Green (#48BB78) */
+    --accent-color: rgb(107, 122, 185); /* Soft Blue (#6B7AB9) */
+    --background-start: rgb(230, 240, 250); /* Light Gradient Start (#E6F0FA) */
+    --background-end: rgb(240, 244, 248); /* Light Gradient End (#F0F4F8) */
+    --dark-mode-bg-start: rgb(30, 41, 59); /* Dark Mode Start (#1E293B) */
+    --dark-mode-bg-end: rgb(45, 58, 74); /* Dark Mode End (#2D3A4A) */
+    --text-light: rgb(241, 245, 249); /* Light Gray (#F1F5F9) */
+    --text-dark: rgb(30, 41, 59); /* Dark Gray (#1E293B) */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    overflow: hidden;
+}

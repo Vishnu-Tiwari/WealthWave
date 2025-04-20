@@ -1,0 +1,168 @@
+
+.sidebar {
+    height: 100vh;
+    background-color: var(--primary-color);
+    padding-top: 4rem;
+}
+
+.sidebar h3{
+    font-size: 3rem;
+}
+
+.sidebar-item {
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 1.5rem;
+}
+.sidebar-item:hover {
+    background-color: var(--dark-mode-bg-start);
+    color: #fff;
+}
+.active {
+    background-color: var(--secondary-color);
+}
+
+/* dashboard style here */
+main section{
+    height: 100vh;
+}
+
+.dashboard-header h2{
+    font-size: 3rem;
+    color: var(--secondary-color);
+}
+
+.dashboard-header .btn{
+    background-color: var(--secondary-color);
+    color: var(--text-light);
+}
+/* card of income, expenses, balance, dues style here */
+.card .card-title{
+    color: var(--text-dark);
+}
+
+.card-area .card .card-body .col .text-xs{
+    font-size: 1.7rem;
+    font-weight: bolder;
+}
+
+.card-area .card .card-body .col .h5{
+    font-size: 1.7rem;
+    margin: 1rem 0;
+}
+
+/* transaction area cards style  */
+.hover-effect {
+    transition: transform 0.2s;
+}
+.hover-effect:hover {
+    transform: translateY(-3px);
+}
+.card {
+    border-radius: 12px;
+    border: none;
+}
+.badge {
+    border-radius: 20px;
+}
+
+/* add transaction page style here */
+
+.transaction-container {
+    max-width: 800px;
+    margin: 3rem auto;
+    font-size: 1.1rem;
+    animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.transaction-title {
+    color: var(--primary-color);
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 2.5rem;
+    text-align: center;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.15);
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.transaction-form {
+    background: linear-gradient(145deg, var(--background-start), var(--background-end));
+    padding: 3.5rem;
+    border-radius: 25px;
+    margin-bottom: 1rem;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.form-control, .form-select {
+    border: 2px solid var(--accent-color);
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    transition: all 0.1s ease;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.form-control:focus, .form-select:focus {
+    box-shadow: 0 0 0 4px rgba(107, 122, 185, 0.3);
+    border-color: var(--primary-color);
+    transform: translateY(-2px);
+}
+
+.form-label {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-submit {
+    background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+    color: white;
+    padding: 1.2rem 2.5rem;
+    font-size: 1.3rem;
+    border-radius: 15px;
+    border: none;
+    width: 100%;
+    transition: all 0.4s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-submit:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    filter: brightness(110%);
+}
+
+.modal-content {
+    background: linear-gradient(to bottom right, var(--background-start), var(--background-end));
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+    border-bottom: 3px solid var(--accent-color);
+    padding: 1.5rem;
+}
+
+.modal-title {
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    font-weight: 700;
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+    
