@@ -92,6 +92,7 @@ main section{
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.15);
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -124,7 +125,7 @@ main section{
     font-size: 1.1rem;
     margin-bottom: 0.8rem;
     background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -162,7 +163,7 @@ main section{
     font-size: 1.8rem;
     font-weight: 700;
     background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
     
